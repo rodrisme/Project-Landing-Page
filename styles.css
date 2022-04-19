@@ -12,7 +12,6 @@ header{
     color: #f9f1f8;
 }
 
-
 .container{
     display: flex;
     justify-content: center;
@@ -46,6 +45,10 @@ header{
     padding: 20px;
     width: 120px;
     height: 120px;
+}
+
+.mid{
+    padding-bottom: 80px;
 }
 
 .logo{
@@ -112,3 +115,27 @@ a{
   font-weight: bold;
   border-radius: 8px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase{
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    margin: 0;
+}
+.signature{
+    width: 800px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
